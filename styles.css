@@ -36,3 +36,8 @@ h1 + h2 {
 p ~ div {
   border: 2px dashed #0000ff;
 }
+
+
+div p {
+  color: blue;
+}
