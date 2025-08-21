@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #830505;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body, h1, h2, h3  {
+  color: #fff;
+}
+
+body p {
+  color: #f5dd09;
+}
+
+.container {
+  color: #0d09f5;
+  background-color: #cfcccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
+body > p {
+  border: 2px solid #00ff00;
+}
+
+h1 + h2 {
+  background-color: #ffcc00;
+}
+
+p ~ div {
+  border: 2px dashed #0000ff;
+}
