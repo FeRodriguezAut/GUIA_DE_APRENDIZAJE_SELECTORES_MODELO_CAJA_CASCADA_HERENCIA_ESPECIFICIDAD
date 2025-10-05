@@ -1,22 +1,25 @@
+/* de estilos CSS */
+/* Reiniciar márgenes y paddings, y usar box-sizing border-box para todos los elementos */
+
 *{
   margin: 0;
   padding: 10px;
   box-sizing: border-box;
 }
-
+/* Estilos para el cuerpo del documento */
 body {
   background-color: #830505;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
-
+/* Estilos para los encabezados y párrafos */
 body, h1, h2, h3  {
   color: #fff;
 }
-
+/* Estilos específicos para párrafos dentro del cuerpo */
 body p {
   color: #f5dd09;
 }
-
+/* Estilos para los enlaces */
 .container {
   color: #0d09f5;
   background-color: #cfcccc;
@@ -24,19 +27,19 @@ body p {
   border-radius: 5px;
 }
 
-
+/* Selectores avanzados */
 body > p {
   border: 2px solid #00ff00;
 }
-
+/* Selector de hijo directo */
 h1 + h2 {
   background-color: #ffcc00;
 }
-
+/* Selector de hermano adyacente */
 p ~ div {
   border: 2px dashed #0000ff;
 }
-
+/* Selector de hermanos generales */
 
 div p {
   color: blue;
